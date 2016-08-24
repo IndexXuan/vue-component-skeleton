@@ -35,15 +35,14 @@ module.exports = {
     ]
   },
   babel: {
-  presets: ['es2015'],
-  plugins: ['transform-runtime']
-},
+    presets: ['es2015'],
+    plugins: ['transform-runtime']
+  },
   devtool: 'source-map'
 };
 
-
 if (process.env.NODE_ENV === 'production') {
-  delete module.exports.devtool;
+  delete module.exports.devtool
   module.exports.plugins = [
     new webpack.DefinePlugin({
       'process.env': {
@@ -55,5 +54,5 @@ if (process.env.NODE_ENV === 'production') {
         warnings: false
       }
     })
-  ];
+  ]
 }

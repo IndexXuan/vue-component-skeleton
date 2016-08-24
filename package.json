@@ -1,8 +1,8 @@
 {
   "author": "indexxuan@gmail.com",
-  "name": "[your component]",
-  "version": "0.8.3",
-  "description": "a select component based on vue.js & bootstrap",
+  "name": "{{ your component name }}",
+  "version": "{{ version }}",
+  "description": "{{ your description }}",
   "scripts": {
     "start": "webpack-dev-server --inline --hot --quiet",
     "build:dev": " webpack --progress --hide-modules --config webpack.config.js",
@@ -14,11 +14,11 @@
   "main": "dist/build.js",
   "repository": {
       "type": "git",
-      "url": "git+https://github.com/iwaimai-bi-fe/[your component].git"
+      "url": "git+https://github.com/iwaimai-bi-fe/{{ your component name }}.git"
   },
-  "homepage": "https://github.com/iwaimai-bi-fe/[your component]#readme",
+  "homepage": "https://github.com/iwaimai-bi-fe/{{ your component name }}#readme",
   "bugs": {
-      "url": "https://github.com/iwaimai-bi-fe/[your component]/issues"
+      "url": "https://github.com/iwaimai-bi-fe/{{ your component name }}/issues"
   },
   "dependencies": {
     "vue": "^1.0.24"

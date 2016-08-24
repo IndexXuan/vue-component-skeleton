@@ -41,13 +41,28 @@ npm run build:prod
 * build example
 
 ```node
-npm run example
+npm run build:example
 ```
 
 * run server
 
 ```node
 npm run start
+
+```
+
+* dev 
+
+```node
+npm run dev 
+
+```
+
+* example 
+
+```node
+npm run example 
+
 ```
 
 * publish 
