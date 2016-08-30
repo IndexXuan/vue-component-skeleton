@@ -51,14 +51,14 @@ npm run start
 
 ```
 
-* dev 
+* dev component
 
 ```node
 npm run dev 
 
 ```
 
-* example 
+* dev example 
 
 ```node
 npm run example 
